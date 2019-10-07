@@ -1,8 +1,8 @@
 <template>
     <router-link :to=parentData.link >
-        <div :class="getClass()">
-            <font-awesome-icon class="m1 text-xl" :icon="parentData.icon"/>
-            <span >{{parentData.name}}</span>
+        <div :class="getClass()" class="item p-2 mx-2 text-center">
+            <font-awesome-icon class="text-xl" :icon="parentData.icon"/><br>
+            <span>{{parentData.name}}</span>
         </div>
     </router-link>
 </template>
@@ -17,10 +17,8 @@ export default {
 	mounted() {},
 	methods: {
 		getClass() {
-			var composedclass = "item p-2 mx-1 ";
-            if (this.parentData.isActive) composedclass += " font-bold text-primary-normal";
-            else composedclass += "text-label-subinfo ";
-			return composedclass;
+            if (this.parentData.isActive) return " font-bold text-primary-normal";
+            return "text-label-subinfo ";
         }
 	}
 };

@@ -1,6 +1,6 @@
 <template>
     <transition name="slideUp">
-        <div v-if="this.showNav" id="navBar" class="navbar p-1 rounded-sm bg-background-xlighter shadow-2xl ">
+        <div v-if="this.showNav" class="navbar flex justify-between sm:flex-none p-1 rounded-none sm:rounded-sm bg-background-xlighter shadow-2xl ">
             <menu-item 
                 v-for="(item, index) in menuitems"
                 :key="index"
@@ -23,8 +23,9 @@ export default {
             showNav: true,
 			menuitems: [
 				{ link: "/", name: "Home", isActive: true, icon: "home",  },
-				{ link: "/about", name: "About Me", isActive: false, icon: "address-card" },
-				{ link: "/projects", name: "Projects", isActive: false, icon: "box" }
+				{ link: "/about", name: "About", isActive: false, icon: "address-card" },
+                { link: "/projects", name: "Projects", isActive: false, icon: "box" },
+                { link: "/contact", name: "Contact", isActive: false, icon: "envelope" },
             ],
             lastScrollPosition: 0,
             scrollValue: 0
