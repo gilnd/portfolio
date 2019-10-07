@@ -80,7 +80,7 @@ export default new Vuex.Store({
             startDate: "Gen 2017",
             endDate: "Jun 2017"
         }, { 
-            name: "IIS G.Valluari ",
+            name: "IIS G.Vallauri ",
             description: "I got my diploma in this IT school, and here it started learning how to code with C#.",
             role: "Student",
             type: "education",

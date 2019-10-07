@@ -9,7 +9,7 @@
     </div>
 
     <div class="text-label-subinfo text-xl my-8">
-        I'm a {{age}} years old software engineer based in Turin, Italy,<br> specialized in Webapp development! <br> I also enjoy contributing to open soruce projects .
+        I'm a {{age}} years old software engineer based in Turin, Italy,<br> specialized in Webapp development! <br> I also enjoy contributing to open source projects .
     </div>
     <button class="text-primary-lighter rounded-sm text-lg p-4 border-2 hover:text-accent-lighter hover:bg-transparent-accent" 
         onclick="location.href='mailto:gilbert.ndresaj@gmail.com'">

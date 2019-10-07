@@ -23,11 +23,9 @@
                     :tagData="item">{{item.name }} 
                 </span>
                 <br>
-                    <a class="text-label-subtitle hover:bg-background-xdarker rounded-full px-2 py-1 text-sm mr-1" :href="parentData.link">
-                        <font-awesome-icon class="spacing-right text-lg" icon="link"/> see more
-                    </a>
-                
-                <!--</div>-->
+                <a class="text-label-subtitle hover:bg-background-xdarker rounded-full px-2 py-1 text-sm mr-1" :href="parentData.link">
+                    <font-awesome-icon class="spacing-right text-lg" icon="link"/> see more
+                </a>
             </div>
         </div>
     </div>
