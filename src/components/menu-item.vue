@@ -18,7 +18,7 @@ export default {
 	methods: {
 		getClass() {
 			var composedclass = "item p-2 mx-1 ";
-            if (this.parentData.isActive) composedclass += " text-primary-normal";
+            if (this.parentData.isActive) composedclass += " font-bold text-primary-normal";
             else composedclass += "text-label-subinfo ";
 			return composedclass;
         }
@@ -33,13 +33,14 @@ export default {
 	float: left;
 }
 .item:hover:not(.active) {
-	animation: hoverIn 0.5s;
-	animation-fill-mode: forwards;
+    animation: hoverIn 0.5s;
+    animation-fill-mode: forwards;
+    
 }
 
 @keyframes hoverIn {
 	to {
-        font-weight: lighter;
+        font-weight: bold;
         letter-spacing: 0.12em
 	}
 }
