@@ -1,5 +1,5 @@
 <template>
-	<div id="app" class="w-full h-full min-w-screen min-h-screen bg-background-xdarker sm:p-6">
+	<div id="app" class="w-full h-full min-w-screen min-h-screen bg-background-xdarker py-4 sm:py-8 sm:px-2">
         <menu-items></menu-items>
 	    <div id="pages" class=" sm:w-10/12 lg:w-3/5 sm:m-auto mx-6 ">
             <transition 
@@ -52,9 +52,6 @@ export default {
 	font-family: Montserrat, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	/*margin: auto;*/
-    /* width: 60%; */
-    padding: 4em 0em;
 }
 
 .fade-enter-active,

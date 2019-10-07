@@ -87,7 +87,24 @@ export default new Vuex.Store({
             startDate: "Sep 2010",
             endDate: "Jun 2016"
         }
-
+    ], socials: [
+        {
+            name: "LinkedIn",
+            link: "https://linkedin.com/in/gilbertndr/",
+            icon: "linkedin" 
+        }, {
+            name: "Github",
+            link: "https://github.com/gilbertndr",
+            icon: "github" 
+        }, {
+            name: "Twitter",
+            link: "https://twitter.com/gilbertndr",
+            icon: "twitter" 
+        }, {
+            name: "Instagram",
+            link: "https://instagram.com/gilbertndr",
+            icon: "instagram" 
+        },   
     ]
 },
 
@@ -99,7 +116,8 @@ export default new Vuex.Store({
         profile: state => state.profile,
         projects: state => state.projects,
         technologies: state => state.technologies,
-        events: state => state.events
+        events: state => state.events,
+        socials: state => state.socials
     },
     mutations: {},
     actions: {}

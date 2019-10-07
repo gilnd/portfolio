@@ -1,6 +1,6 @@
 <template>
    <div>
-        <span class="text-5xl font-bold text-primary-normal ">{ Projects } </span>
+        <span class="font-bold text-primary-normal sm:text-5xl text-4xl ">Projects</span>
         <br/>
         <span class="text-label-info text-xl">
             I like to learn new technologies while doing side projects afterwork.

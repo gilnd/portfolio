@@ -1,6 +1,6 @@
 <template>
  <div>
-    <span class="text-5xl font-bold text-primary-normal ">About Me @ </span>
+    <span class="font-bold text-primary-normal sm:text-5xl text-4xl ">About Me</span>
     <br/>
     <div class="my-8">
         <span class="text-label-info font-bold text-xl "> An little introduction: </span><br>
