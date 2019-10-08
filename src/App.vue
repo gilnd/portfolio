@@ -8,7 +8,7 @@
                 @beforeLeave="beforeLeave"
                 @enter="enter"
                 @afterEnter="afterEnter">
-                <router-view></router-view>
+                <router-view/>
             </transition>
         </div>
 	</div>
