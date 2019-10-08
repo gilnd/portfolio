@@ -2,6 +2,10 @@
 
 > This is my personal portfolio Made with vue.js, please credit if you want to use it!
 
+## Deployment
+
+Hosted on netlify! [view site](http://gilbertndr.netlify.com)
+
 ## Project setup
 ```
 npm install
