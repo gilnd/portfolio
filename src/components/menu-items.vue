@@ -35,7 +35,7 @@ export default {
 			this.menuitems.forEach(item => {
 				item.isActive = item.name == selectedItem.name;
 			});
-        },onScroll (event) {
+        }, onScroll() {
             const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop
             
             this.showNav = currentScrollPosition < this.lastScrollPosition
