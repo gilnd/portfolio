@@ -18,7 +18,7 @@ module.exports = {
         black: '#000',
 
         background: { 
-            xdarker: '#281E29',
+            xdarker: '#000',
             darker: '#251C26',
             default: '#6b5070',
             lighter: '#363446', /* #45283c */
