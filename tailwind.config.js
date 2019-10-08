@@ -34,9 +34,9 @@ module.exports = {
         },
 
         primary: {
-            lighter: '#d95763',
-            normal: '#d95763',
-            darker: '#d95763'
+            lighter: 'rgba(217, 210, 87, 1)',
+            normal: 'rgba(217, 210, 87, 1)',
+            darker: 'rgba(217, 210, 87, 1)'
         },
 
         accent: {
