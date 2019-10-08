@@ -31,8 +31,8 @@
 </template>
 
 <script>
-import technology from './components/technology.vue';
-import timeline from './components/timeline.vue';
+import technology from '@/components/technology.vue';
+import timeline from '@/components/timeline.vue';
 import { mapGetters } from "vuex";
 export default {
   components: { technology, timeline },

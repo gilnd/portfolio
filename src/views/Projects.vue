@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import project from './components/project.vue';
+import project from '@/components/project.vue';
 import { mapGetters } from 'vuex';
 export default {
 	components: { project },
@@ -30,7 +30,7 @@ export default {
   }
 </script>
 
-<style scoped>
+<style>
 #container {
     padding-top: 4em
 }

@@ -37,12 +37,7 @@ export default {
     name: "project",
 	props: {
 		parentData: Object,
-	},
-    methods: {
-        getImgUrl(pic) {
-            return require('../assets/img/'+pic)
-        }
-    }
+	}
 };
 </script>
 
