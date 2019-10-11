@@ -1,5 +1,5 @@
 <template>
-    <div class="project" >
+    <div class="project shadow-lg" >
         <div class="border-r border-b border-l border-background-lighter w-full lg:border-l-0 lg:border-t lg:border-background-lighter bg-background-lighter rounded-b lg:rounded-b-none lg:rounded-r p-6 flex flex-col justify-between leading-normal">
             <div>
                 <div class="my-4">

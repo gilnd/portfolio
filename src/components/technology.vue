@@ -2,7 +2,7 @@
     <div class="" >
         <span class="text-sm text-label-info">{{parentData.name}}</span>
         <div class="bg-background-lighter rounded-full">
-            <div class="bg-background rounded-full h-1" :style="getStyle()"></div>
+            <div class="bg-primary-normal rounded-full h-1" :style="getStyle()"></div>
         </div><br>
     </div>
 </template>

@@ -13,7 +13,7 @@ module.exports = {
         transparent:{  
             empty: 'transparent',
             accent: 'rgba(217, 210, 87, 0.1)',
-    },
+        },
         white: '#fff',
         black: '#000',
 
@@ -23,7 +23,6 @@ module.exports = {
             default: '#6b5070',
             lighter: '#363446', /* #45283c */
             xlighter: '#4A4858'
-
         },
 
         label: {

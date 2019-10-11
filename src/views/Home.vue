@@ -3,9 +3,11 @@
     <div>
         <span class="text-accent-normal text-lg font-bold ">Hey There, i'm</span><br/>
         <span class="text-primary-normal font-bold sm:text-5xl text-4xl ">{{profile.name}} {{profile.surname}}.</span><br>
-        <span class="text-accent-normal font-bold sm:text-5xl text-4xl">{ </span>
-        <span class="text-background-xlighter font-bold sm:text-5xl text-3xl "> I translate great ideas into code </span>
-        <span class="text-accent-normal font-bold sm:text-5xl text-3xl"> }</span>
+        <div>
+            <span class="text-accent-normal font-bold sm:text-5xl text-4xl">{ </span>
+            <span class="text-background-xlighter font-bold sm:text-5xl text-3xl "> I translate great ideas into code </span>
+            <span class="text-accent-normal font-bold sm:text-5xl text-3xl"> }</span>
+        </div>
     </div>
 
     <div class="text-label-subinfo text-xl my-8">
