@@ -1,8 +1,8 @@
 <template>
     <div class="" >
         <span class="text-sm text-label-info">{{parentData.name}}</span>
-        <div class="bg-background-lighter rounded-full">
-            <div class="bg-primary-normal rounded-full h-1" :style="getStyle()"></div>
+        <div class="bg-background-light rounded-full">
+            <div class="bg-primary-main rounded-full h-1" :style="getStyle()"></div>
         </div><br>
     </div>
 </template>

@@ -1,10 +1,10 @@
 <template>
  <div>
-    <span class="font-bold text-primary-normal sm:text-5xl text-4xl ">About Me</span>
+    <span class="font-bold text-primary-main sm:text-5xl text-4xl ">About Me</span>
     <br/>
     <div class="my-8">
         <span class="text-label-info font-bold text-xl "> An little introduction: </span><br>
-        <p class="text-label-subinfo  text-lg ">{{profile.description}}</p><br>
+        <p class="text-label-info  text-lg ">{{profile.description}}</p><br>
         
         <div class="flex flex-wrap">
             <div class="w-full"> <!-- md:w-1/2">-->
@@ -18,7 +18,7 @@
             </div>
             <!--<div class="px-6 w-full md:w-1/2 ">
                 <span class="text-label-info font-bold text-xl "> An little introduction: </span><br>
-                <p class="text-label-subinfo  text-lg ">{{profile.description}}</p><br>
+                <p class="text-label-info  text-lg ">{{profile.description}}</p><br>
             </div>
             -->
         </div>

@@ -17,8 +17,8 @@ export default {
 	mounted() {},
 	methods: {
 		getClass() {
-            if (this.parentData.isActive) return " font-bold text-primary-normal";
-            return "text-label-subinfo ";
+            if (this.parentData.isActive) return " font-bold text-white";
+            return "text-label-info ";
         }
 	}
 };

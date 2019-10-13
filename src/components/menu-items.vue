@@ -1,6 +1,6 @@
 <template>
     <transition name="slideUp">
-        <div v-if="this.showNav" class="navbar flex justify-between sm:flex-none p-1 rounded-none sm:rounded-sm bg-background-xlighter shadow-2xl ">
+        <div v-if="this.showNav" class="navbar flex justify-between sm:flex-none p-1 rounded-none sm:rounded-sm bg-primary-main shadow-2xl ">
             <menu-item 
                 v-for="(item, index) in menuitems"
                 :key="index"

@@ -12,37 +12,28 @@ module.exports = {
     colors: {
         transparent:{  
             empty: 'transparent',
-            accent: 'rgba(217, 210, 87, 0.1)',
+            primary: 'rgba(63,80,181,0.2)'
         },
         white: '#fff',
         black: '#000',
 
         background: { 
-            xdarker: '#281E29',
-            darker: '#251C26',
-            default: '#6b5070',
-            lighter: '#363446', /* #45283c */
-            xlighter: '#4A4858'
+            default: '#212121',
+            light:'#424242'
         },
 
         label: {
-            title: '#ffffff',
-            subtitle: '#dddddd',
-            info: '#cccccc',
-            subinfo: '#bbbbbb'
+            title: '#fafafa',
+            subtitle: '#eeeeee',
+            info: '#bdbdbd',
         },
 
         primary: {
-            lighter: '#d95763',
-            normal: '#d95763',
-            darker: '#d95763'
+            light: '#757ce8',
+            main: '#3f50b5',
+            dark: '#002884',
+            contrastText: '#fff',
         },
-
-        accent: {
-            lighter: '#d9d257',
-            normal: '#d9d257',
-            darker: '#d9d257'
-        }
     },
     spacing: {
       px: '1px',

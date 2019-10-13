@@ -6,8 +6,8 @@ Vue.use(Vuex);
 export default new Vuex.Store({
   state: {
     profile: {
-        name: "gilbert",
-        surname: "ndresaj",
+        name: "Gilbert",
+        surname: "Ndresaj",
         birthDay: new Date(1995, 6, 7),
         description:
             "Hello I'm Gilbert, a software engineer based in Turin, Italy. Full-stack developer with industry experience building websites and web applications. I specialize in JavaEE and have professional experience working with Angular. ",

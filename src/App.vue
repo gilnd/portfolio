@@ -1,5 +1,5 @@
 <template>
-    <div id="app" class="w-full h-full min-w-screen min-h-screen bg-background-xdarker py-4 sm:py-8 sm:px-2">
+    <div id="app" class="w-full h-full min-w-screen min-h-screen bg-background py-4 sm:py-8 sm:px-2">
         <menu-items></menu-items>
         <div id="pages" class=" sm:w-10/12 lg:w-3/5 sm:m-auto mx-6 ">
             <transition 

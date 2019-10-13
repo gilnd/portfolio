@@ -1,13 +1,13 @@
 <template>
    <div class="text-center">
-        <span class="font-bold text-primary-normal sm:text-5xl text-4xl  ">Contact</span>
+        <span class="font-bold text-primary-main sm:text-5xl text-4xl">Contact</span>
         <br/>
         <div class="my-8">
-            <span class="text-background-xlighter font-bold sm:text-5xl text-3xl "> Get in touch </span><br>
+            <span class="text-background-light font-bold sm:text-5xl text-3xl "> Get in touch </span><br>
             <span class="text-label-info text-xl my-8">
-                I'm not currently looking for a fulltime job my inbox is always open. Whether for a potential project or idea, I'll try my best to answer your email!.
+                I'm not currently looking for a fulltime job but my inbox is always open. Whether for a potential project or idea, I'll try my best to answer your email!.
             </span><br>
-            <button class=" my-8 text-primary-lighter rounded-sm text-lg p-4 border-2 hover:text-accent-lighter hover:bg-transparent-accent" 
+            <button class=" my-8 rounded-sm text-lg p-4 border-2 text-primary-light hover:text-primary-main hover:bg-transparent-primary " 
                 onclick="location.href='mailto:gilbert.ndresaj@gmail.com'">
                 Say Hello
             </button>
@@ -18,7 +18,7 @@
             </span>
             <br>
             <div v-for="item in socials" v-bind:key="item.name" class="inline-block my-4">
-                <div class="p-4 text-center rounded-sm text-xl text-label-info hover:text-accent-normal hover:bg-transparent-accent ">
+                <div class="p-4 text-center rounded-sm text-xl text-label-info hover:text-primary-main hover:bg-transparent-primary ">
                     <a :href="item.link">
                         <font-awesome-icon :icon="['fab', item.icon]" size="lg" /><br>
                         <span>{{item.name}}</span>
