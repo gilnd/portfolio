@@ -11,7 +11,6 @@
                 <div class="text-secondary-main font-bold text-xl mb-2">{{parentData.name}}</div>
                 <p class="text-label-info text-base">{{parentData.description}}</p>
             </div>
-            
             <div class="py-2 ">
                 <div class="flex items-center py-4">
                     <div class="text-sm">
@@ -25,8 +24,6 @@
                     :index="index"
                     :tagData="item">{{item.name }} 
                 </span>
-                
-                
             </div>
         </div>
     </div>
@@ -50,7 +47,6 @@ export default {
 .project:hover {
     animation: mouseOver 0.3s ease-in forwards;
 }
-
 @media only screen and (max-width: 600px) {
     .project { 
         display: block;

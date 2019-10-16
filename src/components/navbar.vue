@@ -13,9 +13,7 @@
 </template>
 
 <script>
-
 import navbaritem from "./navbar-item.vue";
-
 export default {
 	name: "navbar",
 	components: { navbaritem },
@@ -52,8 +50,6 @@ export default {
 </script>
 
 <style>
-
-
 .navigationbar {
     z-index: 99;
     position: fixed;

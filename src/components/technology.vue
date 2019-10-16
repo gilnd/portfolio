@@ -6,7 +6,6 @@
         </div><br>
     </div>
 </template>
-
 <script>
 export default {
     name: "technology",

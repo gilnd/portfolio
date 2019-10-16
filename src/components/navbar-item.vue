@@ -1,5 +1,4 @@
 <template>
-
     <router-link :to=parentData.link>
         <div :class="getClass()" class="item p-2 mx-2 text-center">
             <font-awesome-icon class="text-xl" :icon="parentData.icon"/><br>
@@ -26,7 +25,6 @@ export default {
 </script>
 
 <style scoped>
-
 .item {
 	display: block;
 	float: left;
@@ -34,7 +32,6 @@ export default {
 .item:hover:not(.active) {
     animation: hoverIn 0.5s;
     animation-fill-mode: forwards;
-    
 }
 
 @keyframes hoverIn {
@@ -43,5 +40,4 @@ export default {
         letter-spacing: 0.12em
 	}
 }
-
 </style>

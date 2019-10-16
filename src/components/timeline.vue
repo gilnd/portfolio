@@ -9,10 +9,8 @@
 </template>
 
 <script>
-
 import event from "./event.vue";
 import { mapGetters } from "vuex";
-
 export default {
     name: "timeline",
     components: { event },
@@ -20,10 +18,5 @@ export default {
     created: function(){},
 	methods: {}
 };
-
 </script>
-
-
-<style>
-
-</style>
+<style></style>
