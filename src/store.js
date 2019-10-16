@@ -11,16 +11,14 @@ export default new Vuex.Store({
         birthDay: new Date(1995, 6, 7),
         description:
             "Hello I'm Gilbert, a software engineer based in Turin, Italy. Full-stack developer with industry experience building websites and web applications. I specialize in JavaEE and have professional experience working with Angular. ",
-
     },
     technologies: [
-        {name: "JavaEE", level: 90 },
+        {name: "Java & JavaEE", level: 90 },
+        {name: "HTML & (S)CSS", level: 92 },
         {name: "Javascript", level: 80 },
-        {name: "HTML & (S)CSS", level: 80 },
         {name: "AngularJS / Angular2+", level: 70 },
-        {name: "Node.js", level: 70 },
-        {name: "Express", level: 60 },
-        {name: "Vue", level: 55 }
+        {name: "Node.js & Express.js", level: 68 },
+        {name: "Vue.js", level: 62 }
     ],
     projects: [{
         name: "LeafPic Gallery",

@@ -8,7 +8,7 @@
                         <font-awesome-icon class="text-lg text-label-info hover:text-primary-light" icon="link"/>
                     </a>
                 </div>
-                <div class="text-primary-light font-bold text-xl mb-2">{{parentData.name}}</div>
+                <div class="text-secondary-main font-bold text-xl mb-2">{{parentData.name}}</div>
                 <p class="text-label-info text-base">{{parentData.description}}</p>
             </div>
             
@@ -19,7 +19,7 @@
                         <p class="text-label-info">{{parentData.startDate}} - {{parentData.endDate}}</p>
                     </div>
                 </div>
-                <span class="inline-block rounded-full text-sm font-semibold text-label-info mr-1"
+                <span class="inline-block rounded-full text-sm text-label-subtitle mr-1"
                     v-for="(item, index) in parentData.tags"
                     :key="index"
                     :index="index"

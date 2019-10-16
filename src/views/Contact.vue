@@ -1,9 +1,9 @@
 <template>
-   <div class="text-center">
+   <div class=" flex-col justify-center text-center">
         <span class="font-bold text-primary-main sm:text-5xl text-4xl">Contact</span>
         <br/>
         <div class="my-8">
-            <span class="text-background-light font-bold sm:text-5xl text-3xl "> Get in touch </span><br>
+            <span class="text-secondary-main font-bold sm:text-5xl text-3xl "> Get in touch </span><br>
             <span class="text-label-info text-xl my-8">
                 I'm not currently looking for a fulltime job but my inbox is always open. Whether for a potential project or idea, I'll try my best to answer your email!.
             </span><br>
@@ -17,8 +17,8 @@
                 where else you can find me:
             </span>
             <br>
-            <div v-for="item in socials" v-bind:key="item.name" class="inline-block my-4">
-                <div class="p-4 text-center rounded-sm text-xl text-label-info hover:text-primary-main hover:bg-transparent-primary ">
+            <div v-for="item in socials" v-bind:key="item.name" class="inline-block my-4 bg-background-light rounded-sm">
+                <div class="p-4 text-center rounded-sm text-xl text-label-info hover:text-secondary-main hover:bg-transparent-secondary ">
                     <a :href="item.link">
                         <font-awesome-icon :icon="['fab', item.icon]" size="lg" /><br>
                         <span>{{item.name}}</span>

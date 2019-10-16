@@ -4,7 +4,7 @@
         <span class="text-primary-light text-xl "><b>{{parentData.name}}</b></span><br>
         <span class="text-label-subtitle text-base "><b>{{parentData.role}}</b></span>
         <p class="text-label-info text-lg ">{{parentData.description}}</p>
-        <span class="text-label-info text-sm "><i>{{parentData.type}}</i></span>
+        <span class="text-label-subtitle text-sm "><i>{{parentData.type}}</i></span>
     </div>
 </template>
 

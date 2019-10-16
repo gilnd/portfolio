@@ -12,28 +12,37 @@ module.exports = {
     colors: {
         transparent:{  
             empty: 'transparent',
-            primary: 'rgba(63,80,181,0.2)'
+            primary: 'rgba(63,80,181,0.2)',
+            secondary: 'rgba(255, 249, 34, 0.2)'
         },
         white: '#fff',
         black: '#000',
 
         background: { 
-            default: '#212121',
-            light:'#424242'
+            default: '#152347',
+            light:'#1d2c4e',
+            nav:'#273a69',
+            footer: '#0e172e'
         },
 
         label: {
-            title: '#fafafa',
-            subtitle: '#eeeeee',
-            info: '#bdbdbd',
+            title: '#ffffff',
+            subtitle: '#92eaff',
+            info: '#99a1b3',
         },
 
         primary: {
-            light: '#757ce8',
-            main: '#3f50b5',
-            dark: '#002884',
+            light: '#c44ee4',
+            main: '#a11ec6',
+            dark: '#6d1485',
             contrastText: '#fff',
         },
+
+        secondary: {
+            main: '#fff922',
+            contrastText: '#000',
+        },
+
     },
     spacing: {
       px: '1px',

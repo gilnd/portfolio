@@ -1,27 +1,28 @@
 <template>
     <transition name="slideUp">
-        <div v-if="this.showNav" class="navbar flex justify-between sm:flex-none p-1 rounded-none sm:rounded-sm bg-primary-main shadow-2xl ">
-            <menu-item 
-                v-for="(item, index) in menuitems"
+        <div v-if="this.showNav" class="navigationbar flex justify-between sm:flex-none p-1 rounded-none sm:rounded-sm bg-background-nav shadow-2xl ">
+            <navbaritem 
+                v-for="(item, index) in links"
                 :key="index"
                 :index="index"
                 :parentData="item"
                 @click.native="selectItem(item)"
-            ></menu-item>
+            ></navbaritem>
         </div>
     </transition>
 </template>
 
 <script>
-import MenuItem from "./menu-item.vue";
+
+import navbaritem from "./navbar-item.vue";
 
 export default {
-	name: "menu-items",
-	components: { MenuItem },
+	name: "navbar",
+	components: { navbaritem },
 	data() {
 		return {
             showNav: true,
-			menuitems: [
+			links: [
 				{ link: "/", name: "Home", isActive: true, icon: "home",  },
 				{ link: "/about", name: "About", isActive: false, icon: "address-card" },
                 { link: "/projects", name: "Projects", isActive: false, icon: "box" },
@@ -32,8 +33,9 @@ export default {
 		};
 	}, methods: {
 		selectItem(selectedItem) {
-			this.menuitems.forEach(item => {
-				item.isActive = item.name == selectedItem.name;
+			this.links.forEach(item => {
+                item.isActive = item.name == selectedItem.name;
+                location.hash = "#" + selectedItem.name;
 			});
         }, onScroll() {
             const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop
@@ -52,7 +54,7 @@ export default {
 <style>
 
 
-.navbar {
+.navigationbar {
     z-index: 99;
     position: fixed;
     display: flex;
@@ -63,7 +65,7 @@ export default {
 }
 
 @media only screen and (max-width: 720px) {
-    .navbar {
+    .navigationbar {
         z-index: 99;
         position: fixed;
         display: flex;

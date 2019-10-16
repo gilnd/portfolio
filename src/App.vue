@@ -1,28 +1,43 @@
-<template>
-    <div id="app" class="w-full h-full min-w-screen min-h-screen bg-background py-4 sm:py-8 sm:px-2">
-        <menu-items></menu-items>
-        <div id="pages" class=" sm:w-10/12 lg:w-3/5 sm:m-auto mx-6 ">
-            <transition 
-                name="fade" 
-                mode="out-in"
-                @beforeLeave="beforeLeave"
-                @enter="enter"
-                @afterEnter="afterEnter">
-                <router-view/>
-            </transition>
-        </div>
-	</div>
+<template class="overflow-hidden ">
+    <div class="w-full h-full min-w-screen min-h-screen bg-background">
+        <navbar></navbar>
+        <div id="pages" class=" sm:w-10/12 lg:w-3/5 sm:m-auto mx-6">
+            <home id="Home" class="md:min-h-screen" />
+            <about id="About" class="md:min-h-screen" />
+            <projects id="Projects" class="md:min-h-screen"/>
+            <contact id="Contact" class="md:min-h-screen" />
+        </div>   
+        <footer id="bottom" class="w-full text-center p-8 bg-background-footer ">   
+            <div>
+                <p class="text-label-subtitle">Made by Gilbert Ndresaj with Vue.js & tailwind.css</p>
+            </div>
+        </footer>
+    </div>
 </template>
 
 <script>
-import MenuItems from "@/components/menu-items.vue";
+
+import navbar from "@/components/navbar.vue";
+import Home from "@/views/Home.vue";
+import About from "@/views/About.vue";
+import Projects from "@/views/Projects.vue";
+import Contact from "@/views/Contact.vue";
+
 export default {
 	name: "app",
-	components: { MenuItems},
+	components: { navbar, Home, About, Projects, Contact },
 	data() {
-        return {prevHeight: 0};
+        return { prevHeight: 0 };
+    },
+    mounted: function(){
+        // From testing, without a brief timeout, it won't work.
+        setTimeout(() => this.scrollFix(this.$route.hash), 1);
     },
     methods: {
+        scrollFix: function(hashbang){
+            location.hash = hashbang;
+        },
+ 
         beforeLeave(element) {
             this.prevHeight = getComputedStyle(element).height;
         },
@@ -42,7 +57,7 @@ export default {
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
 @import './assets/css/tailwind.scss'; /* todo: dosen't work*/
-
+html { scroll-behavior: smooth;} /* todo used to animate scroll on nav click */
 #app{
     overflow: hidden;
 }

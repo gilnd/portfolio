@@ -1,5 +1,5 @@
 <template>
-   <div>
+   <div class=" flex-col justify-center my-8">
         <span class="font-bold text-primary-main sm:text-5xl text-4xl ">Projects</span>
         <br/>
         <span class="text-label-info text-xl">
