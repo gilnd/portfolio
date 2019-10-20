@@ -3,7 +3,7 @@
   "short_name": "gilbertndr | Software Engineer",
   "icons": [
     {
-      "src": "favicon.png",
+      "src": "favicon_large.png",
       "sizes": "512x512",
       "type": "image/png"
     }
