@@ -7,7 +7,7 @@
                 <img class="w-full md:w-64 rounded-lg" src="../assets/img/profile.jpg"/>
             </div>
             <div class="w-full px-16 py-8 rounded-lg bg-background-light shadow-lg">
-                <span class="text-secondary-main font-bold text-xl "> An little introduction: </span><br/>
+                <span class="text-secondary-main font-bold text-xl "> A little introduction: </span><br/>
                 <p class="text-label-info  text-lg ">{{profile.description}}</p>
             </div>
         </div>

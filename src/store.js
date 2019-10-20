@@ -10,7 +10,7 @@ export default new Vuex.Store({
         surname: "Ndresaj",
         birthDay: new Date(1995, 6, 7),
         description:
-            "Hello I'm Gilbert, a software engineer based in Turin, Italy. Full-stack developer with industry experience building websites and web applications. I specialize in JavaEE and have professional experience working with Angular. ",
+            "Hello I’m Gilbert, a software engineer based in Turin, Italy. Full-stack developer with industry experience building websites and web applications. I’m specialized in JavaEE and have professional experience working with Angular. ",
     },
     technologies: [
         {name: "Java & JavaEE", level: 90 },
@@ -22,7 +22,7 @@ export default new Vuex.Store({
     ],
     projects: [{
         name: "LeafPic Gallery",
-        description: "LeafPic is a fluid, material-designed alternative gallery, it also is ad-free and open source under GPLv3 license. I worked as the major designer in this project, I designed and implemented feature such as photo affix.",
+        description: "LeafPic is a fluid, material-designed alternative gallery, it also is ad-free and open source under GPLv3 license. I worked as the major designer in this project, I designed and implemented features such as photo affix.",
         link: "https://github.com/HoraApps/LeafPic",
         icon: "leaf",
         startDate: "Jan 7, 2016",
@@ -36,7 +36,7 @@ export default new Vuex.Store({
         ]
     }, {
         name: "portfolio",
-        description: "Portfolio made with Vue.js and Tailwind css! this portfolio is open source and you can find it on github, please credit if you use it!",
+        description: "Portfolio made with Vue.js and Tailwind css! This portfolio is open source and you can find it on Github, please credit if you use it!",
         link: "https://github.com/gilbertndr/portfolio",
         icon: "address-card",
         startDate: "Sep 20, 2019",
@@ -50,7 +50,7 @@ export default new Vuex.Store({
         ]
     },{
         name: "adbFI",
-        description: "abdFi is an android app that let's you debug android app's over Wi-Fi, without the cable connected to your PC!",
+        description: "abdFi is an Android app that lets you debug Android apps over Wi-Fi, without the cable connected to your PC!",
         link: "https://github.com/gilbertndr/adbFI",
         icon: "wifi",
         startDate: "Sep 20, 2019",
@@ -65,21 +65,21 @@ export default new Vuex.Store({
     ], events: [
         { 
             name: "Xtphere ",
-            description: "I work in this company as a fullstack developer, here i learned building webapps from scratch, i mostly used JavaEE with springboot and Angular for frontend!",
+            description: "I work in this company as a fullstack developer, here I learned building webapps from scratch, I mostly used JavaEE with Spring Boot and Angular for frontend!",
             role: "FullStack Developer ",
             type: "Work",
             startDate: "Jun 2018",
             endDate: "Present"
         }, { 
             name: "Edisoft ",
-            description: "This was my first job as a developer, Here i learned more about frontend development i mostly used php, javascript, html, css and also i worked a lot with Wordpress! ",
+            description: "This was my first job as a developer, here I learned more about frontend development. I mostly used PHP, JavaScript, HTML, CSS and I also worked a lot with Wordpress! ",
             role: "FrontEnd Developer ",
             type: "Work",
             startDate: "Gen 2017",
             endDate: "Jun 2017"
         }, { 
             name: "IIS G.Vallauri ",
-            description: "I got my diploma in this IT school, and here it started learning how to code with C#.",
+            description: "I got my diploma in this IT school, and here I started learning how to code with C#.",
             role: "Student",
             type: "education",
             startDate: "Sep 2010",
