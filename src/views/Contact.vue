@@ -18,12 +18,10 @@
             </span>
             <br>
             <div v-for="item in socials" v-bind:key="item.name" class="inline-block my-4 bg-background-light rounded-sm">
-                <div class="p-4 text-center rounded-sm text-xl text-label-info hover:text-secondary-main hover:bg-transparent-secondary ">
-                    <a :href="item.link">
-                        <font-awesome-icon :icon="['fab', item.icon]" size="lg" /><br>
-                        <span>{{item.name}}</span>
-                    </a>
-                </div>
+                <a :href="item.link" class="p-4 text-center rounded-sm text-xl text-label-info hover:text-secondary-main hover:bg-transparent-secondary block">
+                    <font-awesome-icon :icon="['fab', item.icon]" size="lg" /><br>
+                    <span>{{item.name}}</span>
+                </a>
             </div>
         </div>
     </div>
