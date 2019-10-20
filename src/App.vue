@@ -10,6 +10,7 @@
         <footer id="bottom" class="w-full text-center p-8 bg-background-footer ">   
             <div>
                 <p class="text-label-subtitle">Made by Gilbert Ndresaj with Vue.js & tailwind.css</p>
+                <span class="text-secondary-main">v{{this.appVersion}}</span>
             </div>
         </footer>
     </div>
@@ -23,13 +24,18 @@ import About from "@/views/About.vue";
 import Projects from "@/views/Projects.vue";
 import Contact from "@/views/Contact.vue";
 
+
 export default {
 	name: "app",
 	components: { navbar, Home, About, Projects, Contact },
 	data() {
-        return { prevHeight: 0 };
+        return { 
+            prevHeight: 0,
+            appVersion: '1.0.0'
+        };
     },
     mounted: function(){
+        this.appVersion = require('../package.json').version;
         // From testing, without a brief timeout, it won't work.
         setTimeout(() => this.scrollFix(this.$route.hash), 1);
     },

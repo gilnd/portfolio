@@ -31,10 +31,10 @@ export default {
 		};
 	}, methods: {
 		selectItem(selectedItem) {
-			this.links.forEach(item => {
+            location.hash = "#" + selectedItem.name;
+            this.links.forEach(item => {
                 item.isActive = item.name == selectedItem.name;
-                location.hash = "#" + selectedItem.name;
-			});
+            });
         }, onScroll() {
             const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop
             
