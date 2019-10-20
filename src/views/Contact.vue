@@ -17,11 +17,13 @@
                 where else you can find me:
             </span>
             <br>
-            <div v-for="item in socials" v-bind:key="item.name" class="inline-block my-4 bg-background-light rounded-sm">
-                <a :href="item.link" class="p-4 text-center rounded-sm text-xl text-label-info hover:text-secondary-main hover:bg-transparent-secondary block">
-                    <font-awesome-icon :icon="['fab', item.icon]" size="lg" /><br>
-                    <span>{{item.name}}</span>
-                </a>
+            <div class="flex flex-wrap justify-center mt-4">
+                <div v-for="item in socials" v-bind:key="item.name" class="flex-grow m-2 sm:mx-0 sm:my-4 sm:w-auto bg-background-light rounded-sm">
+                    <a :href="item.link" class="p-4 text-center rounded-sm text-xl text-label-info hover:text-secondary-main hover:bg-transparent-secondary block">
+                        <font-awesome-icon :icon="['fab', item.icon]" size="lg" /><br>
+                        <span>{{item.name}}</span>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
