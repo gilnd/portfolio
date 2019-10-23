@@ -1,10 +1,10 @@
 <template>
    <div class=" flex-col justify-center my-8">
-        <span class="font-bold text-primary-main sm:text-5xl text-4xl ">Projects</span>
+        <h1 class="font-bold text-primary-main sm:text-5xl text-4xl ">Projects</h1>
         <br/>
-        <span class="text-label-info text-xl">
+        <h3 class="text-label-info text-xl">
             I like to learn new technologies while doing side projects afterwork.
-        </span>
+        </h3>
         <div class="projects my-8">
             <project
                 v-for="(item, index) in projects"

@@ -1,9 +1,9 @@
 <template>
    <div class=" flex-col justify-center text-center">
-        <span class="font-bold text-primary-main sm:text-5xl text-4xl">Contact</span>
+        <h1 class="font-bold text-primary-main sm:text-5xl text-4xl">Contact</h1>
         <br/>
         <div class="my-8">
-            <span class="text-secondary-main font-bold sm:text-5xl text-3xl "> Get in touch </span><br>
+            <h1 class="text-secondary-main font-bold sm:text-5xl text-3xl "> Get in touch </h1>
             <span class="text-label-info text-xl my-8">
                 I&rsquo;m not currently looking for a fulltime job but my inbox is always open. Whether for a potential project or idea, I&rsquo;ll try my best to answer your email!
             </span><br>

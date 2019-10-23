@@ -1,6 +1,6 @@
 <template>
  <div class="flex-col justify-center">
-    <span class="font-bold text-primary-main md:text-5xl text-4xl ">About Me</span>
+    <h1 class="font-bold text-primary-main md:text-5xl text-4xl ">About Me</h1>
     <div class="overflow-hidden md:overflow-auto">
         <div class="my-8">
             <div class="float-none md:float-right m-8 p-1 bg-background rounded-lg shadow-lg" >

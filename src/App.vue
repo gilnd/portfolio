@@ -2,7 +2,7 @@
     <div class="w-full h-full min-w-screen min-h-screen bg-background">
         <navbar></navbar>
         <div id="pages" class=" sm:w-10/12 lg:w-3/5 sm:m-auto mx-6">
-            <home id="Home" class="md:min-h-screen" />
+            <home id="Home" class="min-h-screen" />
             <about id="About" class="md:min-h-screen" />
             <projects id="Projects" class="md:min-h-screen"/>
             <contact id="Contact" class="md:min-h-screen" />
