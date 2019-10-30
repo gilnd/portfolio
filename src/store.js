@@ -102,7 +102,11 @@ export default new Vuex.Store({
             name: "Instagram",
             link: "https://instagram.com/gilbertndr",
             icon: "instagram" 
-        },   
+        }, {
+            name: "Spotify",
+            link: "https://open.spotify.com/user/fmlddu645fmfbxo6z10moaydu",
+            icon: "spotify" 
+        },  
     ]
 },
 
