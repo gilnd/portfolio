@@ -64,12 +64,20 @@ export default new Vuex.Store({
     }
     ], events: [
         { 
+            name: "NTT Data ",
+            description: "I work in this company as a fullstack developer, I mostly use JavaEE with Spring Boot and Angular for frontend!",
+            role: "FullStack Developer ",
+            type: "Work",
+            startDate: "Nov 2019",
+            endDate: "Present"
+        },
+        { 
             name: "Xtphere ",
             description: "I work in this company as a fullstack developer, here I learned building webapps from scratch, I mostly used JavaEE with Spring Boot and Angular for frontend!",
             role: "FullStack Developer ",
             type: "Work",
             startDate: "Jun 2018",
-            endDate: "Present"
+            endDate: "Nov 2019"
         }, { 
             name: "Edisoft ",
             description: "This was my first job as a developer, here I learned more about frontend development. I mostly used PHP, JavaScript, HTML, CSS and I also worked a lot with Wordpress! ",
@@ -100,7 +108,7 @@ export default new Vuex.Store({
             icon: "twitter" 
         }, {
             name: "Instagram",
-            link: "https://instagram.com/gilbertndr",
+            link: "https://instagram.com/sushiass.png",
             icon: "instagram" 
         }, {
             name: "Spotify",
