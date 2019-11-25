@@ -15,15 +15,18 @@
                 onclick="location.href='mailto:gilbert.ndresaj@gmail.com'">
                 Get In Touch
             </button>
+            <a href="resume.pdf" download>
+                <button class="ml-5 text-primary-main rounded-sm text-lg p-4 border-2 hover:bg-transparent-primary my-8" >
+                    Get Resume
+                </button>
+            </a>
         </div>
     </div>
 </template>
 
 <script>
 import { mapGetters } from "vuex";
-export default {
-    computed: { ...mapGetters(["profile", "projects", "age"]) }
-};
+export default {computed: { ...mapGetters(["profile", "projects", "age"]) }};
 </script>
 <style>
 </style>
