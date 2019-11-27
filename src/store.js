@@ -66,25 +66,35 @@ export default new Vuex.Store({
         { 
             name: "NTT Data ",
             description: "I work in this company as a fullstack developer, I mostly use JavaEE with Spring Boot and Angular for frontend!",
-            role: "FullStack Developer ",
+            role: "Full Stack Developer ",
             type: "Work",
             startDate: "Nov 2019",
             endDate: "Present"
         },
         { 
-            name: "Xtphere ",
-            description: "I work in this company as a fullstack developer, here I learned building webapps from scratch, I mostly used JavaEE with Spring Boot and Angular for frontend!",
-            role: "FullStack Developer ",
+            name: "Xtphere S.r.l.",
+            description: "Xtphere Srl is a company which carries out innovative solutions for Web & Digital Technology, Mobile Experience, Document Process Management, Big Data and Cloud Migration.",
+            role: "Full Stack Developer ",
             type: "Work",
             startDate: "Jun 2018",
-            endDate: "Nov 2019"
+            endDate: "Nov 2019",
+            roles:[
+                {description:" Developed features and maintained insurance engine, made with Java, Spring Boot & Angular for important italian company." },
+                {description:" Migrated projects from old Libraries & tools to new ones and improved general performances." },
+                {description:" Interfaced with important client on a weekly basis providing help and support for new features and improvements." },
+                {description:" Developed, tested and maintained cross platform web applications that work on various devices and browsers."}
+            ]
         }, { 
-            name: "Edisoft ",
-            description: "This was my first job as a developer, here I learned more about frontend development. I mostly used PHP, JavaScript, HTML, CSS and I also worked a lot with Wordpress! ",
-            role: "FrontEnd Developer ",
+            name: "Edisoft S.r.l.",
+            description: "Edisoft Srl is a small web agency specialized in development of websites & web applications, it also o offers high quality graphic design, online advertising and SEO optimization. ",
+            role: "Front End Developer ",
             type: "Work",
             startDate: "Gen 2017",
-            endDate: "Jun 2017"
+            endDate: "Jun 2017",
+            roles:[
+                {description:" Maintained E-Commerce website and added new features, with Wordpress." },
+                {description:" Developed and maintained code for client websites, mostly using HTML, CSS, Javascript, Jquery & PHP." },
+            ]
         }, { 
             name: "IIS G.Vallauri ",
             description: "I got my diploma in this IT school, and here I started learning how to code with C#.",

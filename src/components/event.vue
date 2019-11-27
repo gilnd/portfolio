@@ -5,6 +5,11 @@
         <span class="text-label-subtitle text-base "><b>{{parentData.role}}</b></span>
         <p class="text-label-info text-lg ">{{parentData.description}}</p>
         <span class="text-label-subtitle text-sm "><i>{{parentData.type}}</i></span>
+         <div v-for="item in parentData.roles" v-bind:key="item.name" class="m-1">
+            <a :href="item.link" class="text-sm text-label-info">
+               <span class="text-label-subtitle"> ➔ </span> <span>{{item.description}}</span>
+            </a>
+        </div>
     </div>
 </template>
 
