@@ -1,5 +1,5 @@
 <template>
-        <div :class="getClass()" class="item p-2 mx-2 text-center">
+        <div :class="getClass()" class="item p-2 mx-2 text-center cursor-pointer">
             <font-awesome-icon class="text-xl" :icon="parentData.icon"/><br>
             <span>{{parentData.name}}</span>
         </div>

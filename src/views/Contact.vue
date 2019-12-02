@@ -14,7 +14,7 @@
         </div>
         <div class="my-8">
             <span class="text-label-info text-xl my-8">
-                where else you can find me:
+                where else you can find me
             </span>
             <br>
             <div class="flex flex-wrap justify-center mt-4">

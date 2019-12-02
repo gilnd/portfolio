@@ -9,17 +9,36 @@ export default new Vuex.Store({
         name: "Gilbert",
         surname: "Ndresaj",
         birthDay: new Date(1995, 6, 7),
+        startDescription: "Hello I’m Gilbert",
         description:
-            "Hello I’m Gilbert, a software engineer based in Turin, Italy. Full-stack developer with industry experience building websites and web applications. I’m specialized in JavaEE and have professional experience working with Angular. ",
+            ", a software engineer based in Turin, Italy. Full-stack developer with industry experience building websites and web applications. I’m specialized in JavaEE and have professional experience working with Angular. ",
     },
-    technologies: [
-        {name: "Java & JavaEE", level: 90 },
-        {name: "HTML & (S)CSS", level: 92 },
-        {name: "Javascript", level: 80 },
-        {name: "AngularJS / Angular2+", level: 70 },
-        {name: "Node.js & Express.js", level: 68 },
-        {name: "Vue.js", level: 62 }
-    ],
+    technologies: {
+        programming:  [
+            { name: "Java & JavaEE", level: 90 , },
+            { name: "Java for Android", level: 80 , },
+            { name: "HTML & (S)CSS", level: 92 },
+            { name: "Javascript (ES6)", level: 80 },
+            { name: "Typescript", level: 60 }
+        ],
+        frameworks: [
+            { name: "Vue.js", level: 76 },
+            { name: "AngularJS / Angular2+", level: 70 },
+            { name: "Bootstrap", level: 80 },
+            { name: "Tailwind.css", level: 70 },
+            { name: "Node.js & Express.js", level: 68 },
+            
+        ],
+        tools:[
+            { name: "git" },
+            { name: "SVN" },
+            { name: "Gradle" },
+            { name: "Maven" },
+            { name: "Webpack" },
+            { name: "Netlify" },
+            { name: "Wordpress" }
+        ]
+    },
     projects: [{
         name: "LeafPic Gallery",
         description: "LeafPic is a fluid, material-designed alternative gallery, it also is ad-free and open source under GPLv3 license. I worked as the major designer in this project, I designed and implemented features such as photo affix.",
@@ -36,7 +55,7 @@ export default new Vuex.Store({
         ]
     }, {
         name: "portfolio",
-        description: "Portfolio made with Vue.js and Tailwind css! This portfolio is open source and you can find it on Github, please credit if you use it!",
+        description: "Portfolio made with Vue.js and Tailwind css! This portfolio is open source and you can find it on Github!",
         link: "https://github.com/gilbertndr/portfolio",
         icon: "address-card",
         startDate: "Sep 20, 2019",
@@ -80,13 +99,13 @@ export default new Vuex.Store({
             endDate: "Nov 2019",
             roles:[
                 {description:" Developed features and maintained insurance engine, made with Java, Spring Boot & Angular for important italian company." },
-                {description:" Migrated projects from old Libraries & tools to new ones and improved general performances." },
+                {description:" Migrated projects from old Libraries & tools to new ones and improved general performance." },
                 {description:" Interfaced with important client on a weekly basis providing help and support for new features and improvements." },
                 {description:" Developed, tested and maintained cross platform web applications that work on various devices and browsers."}
             ]
         }, { 
             name: "Edisoft S.r.l.",
-            description: "Edisoft Srl is a small web agency specialized in development of websites & web applications, it also o offers high quality graphic design, online advertising and SEO optimization. ",
+            description: "Edisoft Srl is a small web agency specialized in development of websites & web applications, it also offers high quality graphic design, online advertising and SEO optimization. ",
             role: "Front End Developer ",
             type: "Work",
             startDate: "Gen 2017",
@@ -97,11 +116,17 @@ export default new Vuex.Store({
             ]
         }, { 
             name: "IIS G.Vallauri ",
-            description: "I got my diploma in this IT school, and here I started learning how to code with C#.",
+            description: " ",
             role: "Student",
             type: "education",
             startDate: "Sep 2010",
-            endDate: "Jun 2016"
+            endDate: "Jun 2016",
+            roles:[
+                { description:" In depth learning of OOP programing with C#. " },
+                { description:" In depth learning of HTML, CSS, JS & Jquery. " },
+                { description:" Learned basics of development of C & C++." },
+                { description:" Learned basics of networks and their structure. " }
+            ]
         }
     ], socials: [
         {

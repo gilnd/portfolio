@@ -3,7 +3,7 @@
         <h1 class="font-bold text-primary-main sm:text-5xl text-4xl ">Projects</h1>
         <br/>
         <h3 class="text-label-info text-xl">
-            I like to learn new technologies while doing side projects afterwork.
+            ➔ A list of my more relevant projects. I like to learn new technologies while doing side projects afterwork.
         </h3>
         <div class="projects my-8">
             <project
