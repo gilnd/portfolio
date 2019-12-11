@@ -27,7 +27,6 @@ export default {
     methods: {
         draw() {
             this.ctx = this.$refs.canvas.getContext("2d");
-            console.log(this.step);
             this.ctx.clearRect(0, 0, this.canvasWidth, this.canvasHeight);
             //showAxes(context);
             this.ctx.save();            
@@ -43,7 +42,6 @@ export default {
         },
 
         plotSine(ctx, xoffset, yoffset) {
-            console.log("plotSine");
             var width = ctx.canvas.width;
             var height = ctx.canvas.height;
             //var scale = 20;
