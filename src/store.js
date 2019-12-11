@@ -27,7 +27,6 @@ export default new Vuex.Store({
             { name: "Bootstrap", level: 80 },
             { name: "Tailwind.css", level: 70 },
             { name: "Node.js & Express.js", level: 68 },
-            
         ],
         tools:[
             { name: "git" },
@@ -88,7 +87,10 @@ export default new Vuex.Store({
             role: "Full Stack Developer ",
             type: "Work",
             startDate: "Nov 2019",
-            endDate: "Present"
+            endDate: "Present",
+            roles:[
+                {description:" Migrated from mongodb v3 to mongodb v4, updated to last libraries and maintained insurance engine." }
+            ]
         },
         { 
             name: "Xtphere S.r.l.",

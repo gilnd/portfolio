@@ -6,7 +6,7 @@
         <img class="h-24 w-24 md:h-24 md:w-24 rounded-full mx-auto md:mx-0 md:mr-6" src="../assets/img/profile.jpg">
         <div class="text-center md:text-left">
             <!-- <span class="text-label-subtitle font-bold text-xl "> ➔➔➔ an introduction </span><br/> -->
-            <p class="text-label-info  text-lg "><span class="uppercase text-sm font-bold">{{profile.startDescription}}</span>{{profile.description}}</p>
+            <p class="text-label-info  text-lg "><span class="uppercase text-sm font-bold text-label-subtitle">{{profile.startDescription}}</span>{{profile.description}}</p>
         </div>
     </div>
 
@@ -35,7 +35,7 @@
         </div>
         <div class="shadow-lg rounded-sm bg-background-light p-6 my-4">
             <span class="text-label-subtitle font-bold text-lg my-2">Tools</span><br>
-            <span v-for="item in technologies.tools" v-bind:key="item.name" class="m-1 text-label-subtitle"> ➔ {{item.name}}</span>
+            <span v-for="item in technologies.tools" v-bind:key="item.name" class="m-1 text-label-subtitle"> ➔ <span class="text-label-info">{{item.name}}</span></span>
         </div>
     </div>
     
