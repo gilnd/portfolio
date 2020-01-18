@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Gilbert Ndresaj | Software Engineer">
+    <meta name="msapplication-TileImage" content="<%= BASE_URL %>favicon.png">
+    <meta name="msapplication-TileColor" content="#152347">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="author" content="Gilbert Ndresaj">
+    <meta name="keywords" content="Gilbert Ndresaj, Gilbert, Ndresaj, gilbertndr, software engineer, front-end, engineer, Torino, Turin, developer, web developer, javascript, javaee, webapp">
+  	<meta name="description" content="Gilbert Ndresaj is a software engineer based in Turin, Italy who specializes in developing high-quality websites and applications.">
+    <link rel="icon" href="<%= BASE_URL %>favicon.png">
+    <link rel="manifest" href="<%= BASE_URL %>manifest.json">
+    <title>Gilbert Ndresaj | Software Engineer</title>
+  </head>
+  <body>
+    <noscript>
+      <strong>I'm sorry but this portfolio doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+
+    <script>
+      if ('serviceWorker' in navigator) {
+          window.addEventListener('load', () => {
+              navigator.serviceWorker.register('<%= BASE_URL %>service-worker.js');
+          });
+      }
+    </script>
+  </body>
+</html>

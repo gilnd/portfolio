@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-border {
+    --border-width: 2px;
+    position: relative;
+    border-radius: var(--border-width);
+    &::after {
+        position: absolute;
+        content: "";
+        top: calc(-1 * var(--border-width));
+        left: calc(-1 * var(--border-width));
+        z-index: -1;
+        width: calc(100% + var(--border-width) * 2);
+        height: calc(100% + var(--border-width) * 2);
+        background: linear-gradient(
+        60deg,
+        hsl(224, 85%, 66%),
+        hsl(269, 85%, 66%),
+        hsl(314, 85%, 66%),
+        hsl(359, 85%, 66%),
+        hsl(44, 85%, 66%),
+        hsl(89, 85%, 66%),
+        hsl(134, 85%, 66%),
+        hsl(179, 85%, 66%)
+        );
+        background-size: 300% 300%;
+        background-position: 0 50%;
+        border-radius: calc(2 * var(--border-width));
+        animation: moveGradient 4s alternate infinite;
+    }
+}
+
+@keyframes moveGradient {
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+
+@keyframes mouseOver { 
+    0% { 
+        top: 0;
+        background-color: #1d2c4e;
+        display: block;
+        transform: translateY(0%);
+    }
+    100% {
+        top: -16px; 
+        background-color: #6d1485;
+        transform: translateY(-2%);
+    }
+}
+
+@keyframes mouseOut{ 
+    0% {
+        top: -16px;
+        background-color: #6d1485;
+        transform: translateY(-2%);
+    } 100% {
+        top: 0;
+        background-color: #1d2c4e;
+        transform: translateY(0%);
+    }
+}
