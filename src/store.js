@@ -137,17 +137,13 @@ export default new Vuex.Store({
             icon: "linkedin" 
         }, {
             name: "Github",
-            link: "https://github.com/gilbertndr",
+            link: "https://github.com/gilnd",
             icon: "github" 
         }, {
             name: "Twitter",
             link: "https://twitter.com/gilbertndr",
             icon: "twitter" 
-        }, /*{
-            name: "Instagram",
-            link: "https://instagram.com/sushiass.png",
-            icon: "instagram" 
-        },*/ {
+        }, {
             name: "Spotify",
             link: "https://open.spotify.com/user/fmlddu645fmfbxo6z10moaydu",
             icon: "spotify" 

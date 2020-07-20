@@ -3,7 +3,7 @@
     <h1 class="font-bold text-primary-main md:text-5xl text-4xl ">About Me</h1>
    
     <div class="my-8 md:flex bg-background-light rounded-lg p-8">
-        <img class="h-24 w-24 md:h-24 md:w-24 rounded-full mx-auto md:mx-0 sm:my-4 md:my-0 md:mr-6" src="../assets/img/profile.jpg">
+        <img class="h-24 w-24 md:h-24 md:w-24 rounded-full mx-auto md:mx-0 sm:my-4 md:my-0 md:mr-6" src="../assets/img/profile.png">
         <div class="text-center md:text-left">
             <!-- <span class="text-label-subtitle font-bold text-xl "> ➔➔➔ an introduction </span><br/> -->
             <p class="text-label-info  text-lg "><span class="uppercase text-sm font-bold text-label-subtitle">{{profile.startDescription}}</span>{{profile.description}}</p>
