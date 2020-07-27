@@ -8,7 +8,7 @@ Hosted on netlify! [view site](https://gilbertndr.dev)
 
 ## :rocket: Project setup
 
-user [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+use [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
 ```
 npm / yarn install 
