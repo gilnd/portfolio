@@ -1,10 +1,10 @@
-# :sunglasses:  gilbertndr | portfolio
+# :sunglasses:  gilnd | portfolio
 
 > This is my personal portfolio Made with vue.js, please credit if you want to use it!
 
 ## :computer:  Deployment
 
-Hosted on netlify! [view site](https://gilbertndr.dev)
+Hosted on netlify! [view site](https://gilbertndresaj.com)
 
 ## :rocket: Project setup
 
