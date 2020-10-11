@@ -55,7 +55,7 @@ export default new Vuex.Store({
     }, {
         name: "portfolio",
         description: "Portfolio made with Vue.js and Tailwind css! This portfolio is open source and you can find it on Github!",
-        link: "https://github.com/gilbertndr/portfolio",
+        link: "https://github.com/gilnd/portfolio",
         icon: "address-card",
         startDate: "Sep 20, 2019",
         endDate: "Present",
@@ -69,7 +69,7 @@ export default new Vuex.Store({
     },{
         name: "adbFI",
         description: "abdFi is an Android app that lets you debug Android apps over Wi-Fi, without the cable connected to your PC!",
-        link: "https://github.com/gilbertndr/adbFI",
+        link: "https://github.com/gilnd/adbFI",
         icon: "wifi",
         startDate: "Sep 20, 2019",
         endDate: "Present",
