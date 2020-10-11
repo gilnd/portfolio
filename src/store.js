@@ -89,6 +89,8 @@ export default new Vuex.Store({
             startDate: "Nov 2019",
             endDate: "Present",
             roles:[
+                {description:" Developed and maintained back office payment webapp with Angular for important italian bank." },
+                {description:" Developed feature and maintained web applications used by italian public administration." },
                 {description:" Migrated from mongodb v3 to mongodb v4, updated to last libraries and maintained insurance engine." }
             ]
         },
