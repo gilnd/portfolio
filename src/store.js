@@ -89,6 +89,7 @@ export default new Vuex.Store({
             startDate: "Nov 2019",
             endDate: "Present",
             roles:[
+                {description:" Improved and maintained Angular2+ custom Framework following UI and UX guidelines given by important italian bank." },
                 {description:" Developed and maintained back office payment webapp with Angular for important italian bank." },
                 {description:" Developed feature and maintained web applications used by italian public administration." },
                 {description:" Migrated from mongodb v3 to mongodb v4, updated to last libraries and maintained insurance engine." }
@@ -145,6 +146,10 @@ export default new Vuex.Store({
             name: "Twitter",
             link: "https://twitter.com/gilbertndr",
             icon: "twitter" 
+        }, {
+            name: "instagram",
+            link: "https://www.instagram.com/gil.ndr/",
+            icon: "instagram" 
         }, {
             name: "Spotify",
             link: "https://open.spotify.com/user/fmlddu645fmfbxo6z10moaydu",
