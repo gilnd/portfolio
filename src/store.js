@@ -22,8 +22,8 @@ export default new Vuex.Store({
             { name: "Typescript", level: 60 }
         ],
         frameworks: [
-            { name: "Vue.js", level: 76 },
-            { name: "AngularJS / Angular2+", level: 70 },
+            { name: "Vue.js", level: 80 },
+            { name: "AngularJS / Angular2+", level: 85 },
             { name: "Bootstrap", level: 80 },
             { name: "Tailwind.css", level: 70 },
             { name: "Node.js & Express.js", level: 68 },
@@ -89,10 +89,10 @@ export default new Vuex.Store({
             startDate: "Nov 2019",
             endDate: "Present",
             roles:[
-                {description:" Improved and maintained Angular2+ custom Framework following UI and UX guidelines given by important italian bank." },
-                {description:" Developed and maintained back office payment webapp with Angular for important italian bank." },
-                {description:" Developed feature and maintained web applications used by italian public administration." },
-                {description:" Migrated from mongodb v3 to mongodb v4, updated to last libraries and maintained insurance engine." }
+                {description:" Improved and maintained ANGULAR 2 CUSTOM FRAMEWORK following UI and UX guidelines given by Intesa SanPaolo." },
+                {description:" Developed and maintained a back office payment webapp with Angular2 for Intesa SanPaolo." },
+                {description:" Developed features and maintained web applications used by italian public administration." },
+                {description:" Migrated from mongoDB v3 to mongoDB v4 , updated to the latest libraries and maintained an insurance engine for Intesa SanPaolo Assicura." }
             ]
         },
         { 
@@ -103,10 +103,10 @@ export default new Vuex.Store({
             startDate: "Jun 2018",
             endDate: "Nov 2019",
             roles:[
-                {description:" Developed features and maintained insurance engine, made with Java, Spring Boot & Angular for important italian company." },
+                {description:" Developed features and maintained an insurance engine, made with JavaEE & AngularJS for Intesa SanPaolo Assicura." },
                 {description:" Migrated projects from old Libraries & tools to new ones and improved general performance." },
-                {description:" Interfaced with important client on a weekly basis providing help and support for new features and improvements." },
-                {description:" Developed, tested and maintained cross platform web applications that work on various devices and browsers."}
+                {description:" Interfaced with Miroglio Group on a monthly basis providing help and support for new features and improvements." },
+                {description:" Developed, tested and maintained cross platform web applications that work on various devices and browsers es: bigEYE."}
             ]
         }, { 
             name: "Edisoft S.r.l.",
