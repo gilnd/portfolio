@@ -14,7 +14,7 @@
     "@fortawesome/vue-fontawesome": "^0.1.10",
     "core-js": "^2.6.5",
     "tailwindcss": "^1.4.6",
-    "vue": "^2.6.10",   
+    "vue": "^2.6.10",
     "vue-router": "^3.3.4",
     "vuex": "^3.4.0"
   },
