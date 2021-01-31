@@ -22,10 +22,10 @@ export default new Vuex.Store({
             { name: "Typescript", level: 60 }
         ],
         frameworks: [
-            { name: "Vue.js & Nuxt.js", level: 80 },
-            { name: "AngularJS / Angular2+", level: 75 },
+            { name: "Vue.js & Nuxt.js", level: 65 },
+            { name: "AngularJS / Angular2+", level: 85 },
             { name: "Tailwind.css", level: 80 },
-            { name: "Bootstrap", level: 75 },
+            { name: "Bootstrap", level: 80 },
             { name: "Node.js & Express.js", level: 68 },
         ],
         tools:[
