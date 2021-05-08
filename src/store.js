@@ -11,22 +11,23 @@ export default new Vuex.Store({
         birthDay: new Date(1995, 6, 7),
         startDescription: "Hello I’m Gilbert",
         description:
-            ", a software engineer based in Turin, Italy. Full-stack developer with industry experience building websites and web applications. I’m specialized in JavaEE and have professional experience working with Angular. ",
+            ", a software engineer based in Turin, Italy. Front End developer and #OpenSource enthusiast with industry experience building websites and web applications. I specialize in UI, UX, Node.js, Vue.js and tailwindcss! ",
     },
     technologies: {
         programming:  [
+            { name: "HTML & (S)CSS", level: 95 },
+            { name: "Javascript (ES6)", level: 95 },
             { name: "Java & JavaEE", level: 90 , },
             { name: "Java for Android", level: 80 , },
-            { name: "HTML & (S)CSS", level: 92 },
-            { name: "Javascript (ES6)", level: 80 },
             { name: "Typescript", level: 60 }
         ],
         frameworks: [
-            { name: "Vue.js & Nuxt.js", level: 65 },
-            { name: "AngularJS / Angular2+", level: 85 },
-            { name: "Tailwind.css", level: 80 },
+            { name: "Vue.js & Nuxt.js", level: 90 },
+            { name: "Tailwind.css", level: 90 },
+            { name: "AngularJS / Angular2+", level: 80 },
             { name: "Bootstrap", level: 80 },
-            { name: "Node.js & Express.js", level: 68 },
+            { name: "Node.js & Express.js", level: 70 },
+            { name: "WindiCSS", level: 60 }
         ],
         tools:[
             { name: "git" },
@@ -39,13 +40,44 @@ export default new Vuex.Store({
         ]
     },
     projects: [{
+        
+        name: "Wappy",
+        description: "Vue3 and WindiCSS, Import your WhatsApp chat to view cool stats!.",
+        link: "https://github.com/UnevenSoftware/Wappy",
+        icon: ['fab', 'whatsapp'],
+        startDate: "2021",
+        endDate: "Present",
+        developer: "UnevenSoftware",
+        tags: [
+            { name: "#opensource" },
+            { name: "#whatsapp" },
+            { name: "#web" },
+            { name: "#vue" }
+        ]
+    },{
+        
+        name: "Vue Instagram Stories",
+        description: "Vue2 and Vue3 library for Instagram stories.",
+        link: "https://github.com/UnevenSoftware/vue-insta-stories",
+        icon: ['fab', 'instagram'],
+        startDate: "2021",
+        endDate: "Present",
+        developer: "UnevenSoftware",
+        tags: [
+            { name: "#opensource" },
+            { name: "#lib" },
+            { name: "#npm" },
+            { name: "#vue" }
+        ]
+    },{
+
         name: "LeafPic Gallery",
         description: "LeafPic is a fluid, material-designed alternative gallery, it also is ad-free and open source under GPLv3 license. I worked as the major designer in this project, I designed and implemented features such as photo affix.",
         link: "https://github.com/HoraApps/LeafPic",
         icon: "leaf",
         startDate: "Jan 7, 2016",
         endDate: "Present",
-        developer: "HoraApps",
+        developer: "UnevenSoftware",
         tags: [
             { name: "#opensource" },
             { name: "#android" },
@@ -59,7 +91,7 @@ export default new Vuex.Store({
         icon: "address-card",
         startDate: "Sep 20, 2019",
         endDate: "Present",
-        developer: "gilbertndr",
+        developer: "gilbert",
         tags: [
             { name: "#opensource" },
             { name: "#vue" },
@@ -73,7 +105,7 @@ export default new Vuex.Store({
         icon: "wifi",
         startDate: "Sep 20, 2019",
         endDate: "Present",
-        developer: "gilbertndr",
+        developer: "gilbert",
         tags: [
             { name: "#opensource" },
             { name: "#android" },
@@ -82,12 +114,23 @@ export default new Vuex.Store({
     }
     ], events: [
         { 
+            name: "Across ",
+            description: "I work in this company as a frontend developer, I mostly use VueJS, TailwindCSS & Laravel!",
+            role: "FrontEnd Developer ",
+            type: "Work",
+            startDate: "Mar 2021",
+            endDate: "Present",
+            roles:[
+                {description:" Developed and maintained back office Dashboards with VueJSf." }
+            ]
+        },
+        { 
             name: "NTT Data ",
             description: "I work in this company as a fullstack developer, I mostly use JavaEE with Spring Boot and Angular for frontend!",
             role: "Full Stack Developer ",
             type: "Work",
             startDate: "Nov 2019",
-            endDate: "Present",
+            endDate: "Mar 2021",
             roles:[
                 {description:" Improved and maintained ANGULAR 2 CUSTOM FRAMEWORK following UI and UX guidelines given by Intesa SanPaolo." },
                 {description:" Developed and maintained a back office payment webapp with Angular2 for Intesa SanPaolo." },
