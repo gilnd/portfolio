@@ -1,6 +1,6 @@
 # [giln.me](https://giln.me) 
 
-Personal portfolio made with with [Vue 3](https://v3.vuejs.org/) and [tailwindcss](https://tailwindcss.com/) and powered by [Vite ⚡](https://vitejs.dev/). 
+Personal portfolio made with with [Vue 3](https://v3.vuejs.org/) and [tailwindcss](https://tailwindcss.com/), powered by [Vite ⚡](https://vitejs.dev/). 
 Live Preview at [giln.me](https://giln.me/)
 
 > Old version built with vue.js (2.x) is available at [branch v1](https://github.com/gilnd/portfolio/tree/v1)
