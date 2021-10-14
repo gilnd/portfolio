@@ -10,7 +10,7 @@ Live Preview at [giln.me](https://giln.me/)
 
 or 
 
-Clone the repo and launch the following commands
+Clone the repo and run the following commands
 
 ```sh
 yarn
