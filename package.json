@@ -1,0 +1,39 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.7",
+    "gsap": "^3.8.0",
+    "mitt": "^3.0.0",
+    "three": "^0.133.1",
+    "vue@next": "^3.2.20",
+    "vue-router": "^4.0.11",
+    "vuex": "^4.0.0",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@headlessui/vue": "^1.4.1",
+    "@heroicons/vue": "^1.0.4",
+    "@iconify/vue": "^3.0.0",
+    "@tailwindcss/aspect-ratio": "^0.3.0",
+    "@tailwindcss/forms": "^0.3.4",
+    "@tailwindcss/line-clamp": "^0.2.2",
+    "@tailwindcss/typography": "^0.4.1",
+    "@types/tailwindcss": "^2.2.1",
+    "@vitejs/plugin-vue": "^1.9.3",
+    "@vue/compiler-sfc": "^3.2.20",
+    "autoprefixer": "^10.3.7",
+    "buffer": "^6.0.3",
+    "isomorphic-unfetch": "^3.1.0",
+    "querystring": "^0.2.1",
+    "tailwindcss": "^2.2.16",
+    "vite": "^2.6.7",
+    "vite-plugin-string": "^1.0.1"
+  }
+}
