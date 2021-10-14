@@ -1,10 +1,8 @@
-# :sunglasses:  gilnd | portfolio
+# portfolio
 
-> This is my personal portfolio Made with vue.js, please credit if you want to use it!
+Personal portfolio Made with vue.js.
 
-## :computer:  Deployment
-
-Hosted on netlify! [view site](https://gilbertndresaj.com)
+**New version** built with Vue 3 and Vite in [main branch](https://github.com/gilnd/portfolio/tree/main) ⚡⚡⚡
 
 ## :rocket: Project setup
 
@@ -41,5 +39,5 @@ also feel free to open a new issue (helpful description, log and images are appr
 
 
 ## :scroll: Licensing
-This project is licensed under the [GNU v3 Public License](https://github.com/gilbertndr/portfolio/blob/dev/LICENSE).
+This project is licensed under the [GNU v3 Public License](https://github.com/gilnd/portfolio/blob/v1/LICENSE).
 
