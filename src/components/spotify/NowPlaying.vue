@@ -33,7 +33,6 @@ const fetchSong = async () => {
       return false;
     }
     const res = await response.json()
-    console.log("Playing song: ", res);
     if(res){
       isPlaying.value = res.is_playing
       song.title = res.item.name
@@ -121,7 +120,7 @@ const fetchSong = async () => {
       </a>
       <div v-else class="flex space-x-4">
         <Icon icon="ci:spotify" class="text-3xl my-auto text-spotify filter drop-shadow-lg"/>
-        <span class="text-xl my-auto text-gray-50 text-opacity-60">Not Playing </span>
+        <span class="text-xl my-auto text-gray-800 dark:text-gray-50 text-opacity-60">Not Playing </span>
       </div>
     </div>
   </TransitionRoot>

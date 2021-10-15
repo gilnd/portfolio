@@ -4,36 +4,43 @@
 import { computed, ref, } from 'vue'
 import { useStore } from 'vuex'
 import { Icon } from '@iconify/vue';
+import { Switch, SwitchGroup, SwitchLabel } from '@headlessui/vue'
 import useEmitter from '@/composables/useEmitter'
 
 const emitter = useEmitter()
 const store = useStore()
 const theme = computed(() => store.getters.theme);
 
-const isShowing = ref(true)
 const enabledDarkMode = computed({
   get: () => theme.value === 'dark',
   set: () => {
     store.dispatch('toggleTheme')
-    isShowing.value=true
   }
 })
 
 const toggle = () => {
   enabledDarkMode.value = !enabledDarkMode.value; 
-  isShowing.value = !isShowing.value
   emitter.emit('theme:change', enabledDarkMode.value ? 'dark' : 'light')
 }
 
 </script>
 <template>
-  <Transition name="fade">
-    <div class="flex">
-      <Icon 
-        class="text-2xl transition duration-200 my-auto cursor-pointer  hover:text-primary" 
-        @click="toggle()"
-        :icon="enabledDarkMode ? 'heroicons-outline:sun': 'heroicons-outline:moon'"
-      />
+  <SwitchGroup>
+    <div class="flex items-center">
+      <Switch
+        v-model="enabledDarkMode"
+        :class='enabledDarkMode ? "bg-gray-600" : "bg-gray-200"'
+        class="relative inline-flex items-center h-8 transition-colors rounded-full w-14
+          focus:outline-none cursor-pointer ">
+        <span
+          :class='enabledDarkMode ? "translate-x-7" : "translate-x-1"'
+          class=" w-6 h-6 transition-transform transform bg-white rounded-full
+            flex items-center justify-center">
+          <Icon 
+            class="text-lg text-gray-800" 
+            :icon="enabledDarkMode ? 'heroicons-outline:moon': 'heroicons-outline:sun'"/>
+        </span>
+      </Switch>
     </div>
-  </Transition>
+  </SwitchGroup>
 </template>

@@ -80,10 +80,10 @@ onMounted(async () => {
     leave="transition transform duration-300 ease-in"
     leave-from="opacity-100 translate-x-0"
     leave-to="-translate-x-4 opacity-0">
-  <div v-if="loading" class="flex space-x-4 my-4">
-    <Icon icon="feather:loader" class="text-3xl my-auto animate-spin" />
-    <span class="text-base md:text-xl my-auto">Getting Spotify Tracks...</span>
-  </div>
+    <div v-if="loading" class="flex space-x-4 my-4">
+      <Icon icon="feather:loader" class="text-3xl my-auto animate-spin" />
+      <span class="text-base md:text-xl my-auto">Getting Spotify Tracks...</span>
+    </div>
   </TransitionRoot>
   <div v-if="!loading && tracks" class="flex flex-col rounded-lg space-y-6  ">
     <div class="flex space-x-4">
