@@ -57,7 +57,7 @@ onMounted(async () => {
   loading.value = true
   const response = await getTopTracks();
   const { items } = await response.json();
-  Object.assign(tracks, items.slice(0, 10).map((track) => ({
+  Object.assign(tracks, items.map((track) => ({
     artist: track.artists.map((_artist) => _artist.name).join(', '),
     songUrl: track.external_urls.spotify,
     title: track.name,
