@@ -14,7 +14,7 @@ const refresh_token = import.meta.env.VITE_SPOTIFY_REFRESH_TOKEN
 const basic = Buffer.from(`${client_id}:${client_secret}`).toString('base64')
 const NOW_PLAYING_ENDPOINT = `https://api.spotify.com/v1/me/player/currently-playing`
 const TOKEN_ENDPOINT = `https://accounts.spotify.com/api/token`
-const TOP_TRACKS_ENDPOINT = `https://api.spotify.com/v1/me/top/tracks`
+const TOP_TRACKS_ENDPOINT = `https://api.spotify.com/v1/me/top/tracks?limit=5`
 
 const getAccessToken = async () => {
   const response = await fetch(TOKEN_ENDPOINT, {
